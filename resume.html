@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+    <style>
+.flex-container{display: flex;flex-direction:row;flex-wrap: inherit;width: 12rem;}
+.flex-item1{float: left;background-color: orange;width: 20rem;border-radius: 30rem ;border-left: 2rem;}
+.flex-item2{float: center;width: 40vw;height: 100%;background-color: white;margin-left: 5vw;}
+.flex-item3{background-color: orange;float: right;margin-left: 10rem;border-radius: 12rem;}
+img{width: 15rem ;height: 15rem ;border-radius: 17rem;margin-top: 0rem;border: 10px solid white;}
+*{font-family: 'Lato', sans-serif;font-family: 'M PLUS Rounded 1c', sans-serif;font-weight: bolder;}
+.flex-item1 h1{text-transform: capitalize;color: darkblue;}
+.flex-item1 p{color: azure;}
+.flex-item2 h1{text-transform: capitalize;color:darkblue;width: 20rem;}
+.flex-item2 p{color: orange;}
+.flex-item2 ul li{color: darkblue;}
+.flex-item3 h1{width: 30rem;text-transform: capitalize;}
+.flex-item3 ul li{color: white;}
+.flex-item3 p{color: white;}
+@media (max-width:450px) and (min-width:0px){
+    .flex-item1{width: 30vw;}
+    .flex-item2{width: 40vw;}
+    .flex-item3{width: 25vw;margin-left: 2vw;}
+    img{width: 25vw;height: auto;}
+  .flex-item3 h1{text-align: left;}
+    *{font-size: 10px;}
+    #heading{margin-left: 35px;}
+    #head{margin-left: 25px;}
+}
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+    
+        <div class="flex-item1">
+            <center>
+            <img src="user.jpg" alt="user">
+            <h1>profile</h1>
+            <p>frontend developer very familiar to html css javascript</p>
+            <h1>contact</h1>
+            <p>
+                7024328154<br><br>
+                arnold@gmail.com<br><br>
+                1252 north street new york city<br>
+
+            </p>
+        </center>
+        </div>
+        <div class="flex-item2">
+            <h1>arnold valentino</h1>
+            <p>Computer Science Major</p>
+            <h1>education</h1>
+            <p>university of texas2020-2024<br>
+                Computer Science Enginering<br>
+                CGPA:-8.5
+            </p>
+            <h1>employment</h1>
+           <p> Design Clock Inc. 2020-2022 | Full Stack Developer<p>
+             <ul>
+             <li> Added and maintained backend/frontend tools for canvas
+and widget-based editor</li>
+ <li>Created a cross-platform library to queue work tasks </li>
+    <li> Containerized many internal services to Docker/docker
+compose for consistent working environments</li>
+</ul>
+<p> Nom Inc. 2017-2020 |Jr. Developer</p>
+<ul>
+ <li>Learned how to add backend/frontend tools for canvas
+and widget-based editor </li>
+<li> a cross-platform library to queue work tasks </li>
+<li> containerize internal services to Docker/dockercompose for consistent working environments</li>
+</ul>
+</div>
+<div class="flex-item3">
+    <center>
+    <h1 id="heading">skills </h1><br>
+    <ul>
+        <li>HTML</li>
+        <li>css</li>
+        <li>bootstrap</li>
+        <li>javascript</li>
+        <li>php</li>
+    </ul>
+    <h1 id="head">declariation</h1>
+    <p>I hearbly declare that all the above mentioned information is correct and true as per my knowledge</p>
+    </center>
+</div>
+    </div>
+</body>
+</html>
